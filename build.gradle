@@ -23,10 +23,10 @@ dependencies {
 // Source: https://mvnrepository.com/artifact/commons-io/commons-io
 	implementation 'commons-io:commons-io:2.22.0'
     // This dependency is found on compile classpath of this component and consumers.
-    compile 'com.google.guava:guava:23.0'
+    implementation 'com.google.guava:guava:23.0'
 
     // Use JUnit test framework
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 // Define the main class for the application
